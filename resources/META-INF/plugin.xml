@@ -23,7 +23,7 @@
 
 
   <extensions defaultExtensionNs="com.intellij">
-    <toolWindow id="JsonViewer" anchor="right" factoryClass="JsonViewerToolWindow" />
+    <toolWindow id="JSON Viewer" anchor="right" factoryClass="JsonViewerToolWindow" />
   </extensions>
 
   <actions>
