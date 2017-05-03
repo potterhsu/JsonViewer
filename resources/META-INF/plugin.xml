@@ -1,0 +1,33 @@
+<idea-plugin version="2">
+  <id>com.your.company.unique.plugin.id</id>
+  <name>JSON Viewer</name>
+  <version>0.1</version>
+  <vendor email="potterhsu0818@gmail.com" url="https://github.com/potterhsu">Potter Hsu</vendor>
+
+  <description><![CDATA[
+      JetBrains IDE plugin for viewing formatted JSON text on tool window.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Version 0.1
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="JsonViewer" anchor="right" factoryClass="JsonViewerToolWindow" />
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
