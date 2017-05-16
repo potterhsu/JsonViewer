@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>com.potterhsu.jsonviewer</id>
   <name>JSON Viewer</name>
-  <version>0.1</version>
+  <version>0.2</version>
   <vendor email="potterhsu0818@gmail.com" url="https://github.com/potterhsu">Potter Hsu</vendor>
 
   <description><![CDATA[
@@ -9,7 +9,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      Version 0.1
+      Bug fix.
     ]]>
   </change-notes>
 

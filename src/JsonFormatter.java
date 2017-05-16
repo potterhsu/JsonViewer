@@ -1,3 +1,6 @@
+import org.codehaus.jettison.json.JSONException;
+import org.codehaus.jettison.json.JSONObject;
+
 /**
  * Created by Potter Hsu on 5/3/17.
  */
@@ -7,10 +10,9 @@ public class JsonFormatter {
 
     public String format(String text) {
         StringBuilder formattedText = new StringBuilder();
-
         int indentCount = 0;
 
-        for (char c : text.replaceAll("(\\s|\\n)", "").toCharArray()) {
+        for (char c : text.toCharArray()) {
             if (c == '[' || c == '{') {
                 formattedText.append(c);
                 formattedText.append('\n');
