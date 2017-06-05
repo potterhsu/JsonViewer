@@ -1,6 +1,3 @@
-import org.codehaus.jettison.json.JSONException;
-import org.codehaus.jettison.json.JSONObject;
-
 /**
  * Created by Potter Hsu on 5/3/17.
  */
